@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+#header {
+    margin-top: 2px;
+    color: darkmagenta;
+    text-align: center;
+    text-justify: auto;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+button {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border: 0px transparent;
+    border-radius: 50%;
+    margin: 4px;
+    padding: 4px;
+}
+div {
+    align-items: center;
+}
+.ButtonCLickedPlayer1 {
+    color:aqua;
+}
+.ButtonClickedPlayer2 {
+    color:blueviolet
+}
+.reset {
+    padding: 8px;
+}
+
+.reset:hover {
+    opacity: 0.8;
+}
