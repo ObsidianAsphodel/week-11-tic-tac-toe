@@ -1,32 +1,39 @@
 body {
-    background-color: black;
-    color: whitesmoke;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg,rgba(0,0,0,1) 0%, 
+                                      rgba(47,0,91,1) 30%, 
+                                      rgba(17,6,169,1) 69%, 
+                                      rgba(0,146,255,1) 81%, 
+                                      rgba(9,153,212,1) 86%, 
+                                      rgba(0,212,255,1) 99%);
+}
+#screen {
+    color: lightblue;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 #header {
     margin-top: 2px;
-    color: darkmagenta;
+    color: rgb(220, 0, 220);
     text-align: center;
     text-justify: auto;
-    font-size: xx-large;
+    font-size: 85px;
     font-weight: bolder;
 }
 button {
     height: 80px;
     width: 80px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.575);
     border: 0px transparent;
     border-radius: 50%;
     margin: 4px;
     padding: 4px;
 }
+button:hover {
+    opacity: 0.65;
+}
 div {
     align-items: center;
-}
-.ButtonCLickedPlayer1 {
-    color:aqua;
-}
-.ButtonClickedPlayer2 {
-    color:blueviolet
 }
 .reset {
     padding: 8px;
@@ -34,4 +41,8 @@ div {
 
 .reset:hover {
     opacity: 0.8;
+}
+.fa {
+    font-size: 48px;
+    color: black; 
 }
